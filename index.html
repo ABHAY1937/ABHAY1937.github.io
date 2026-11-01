@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abhay A — AI / ML Engineer</title>
+<title>Abhay A — AI Engineer, Agentic AI</title>
+<meta name="description" content="Abhay A — AI Engineer building agentic RPA, MCP tool servers, LLM gateways and edge computer vision for enterprise automation.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -570,6 +572,21 @@
         flex:1;
     }
     .proj-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto;}
+    .proj-link{
+        font-family:'IBM Plex Mono',monospace;
+        font-size:0.72rem;
+        letter-spacing:0.04em;
+        text-transform:uppercase;
+        color:var(--signal-dim);
+        text-decoration:none;
+        margin-top:18px;
+        display:inline-block;
+    }
+    .proj-link:hover{color:var(--ink);}
+    .contact-link.full{grid-column:span 2;background:var(--ink);color:var(--paper);}
+    .contact-link.full:hover{background:var(--signal);}
+    .spec-row .v a{color:var(--signal-dim);text-decoration:none;}
+    .spec-row .v a:hover{text-decoration:underline;}
     .proj-tags .tag{font-size:0.68rem;padding:5px 9px;}
 
     /* EDUCATION */
@@ -675,6 +692,7 @@
         .cap-card.wide{grid-column:span 1;}
         .proj-grid{grid-template-columns:1fr;}
         .contact-links{grid-template-columns:1fr;}
+        .contact-link.full{grid-column:span 1;}
         .contact-panel{padding:44px 26px;}
         .section-head{flex-direction:column;align-items:flex-start;gap:12px;}
         .hero-top-row{flex-direction:column;gap:14px;}
@@ -700,6 +718,7 @@
                 <li><a href="#projects">Systems</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="Abhay_A_Resume.pdf" download>Resume ↓</a></li>
             </ul>
         </nav>
     </div>
@@ -716,13 +735,14 @@
 
         <div class="hero-grid">
             <div class="hero-left">
-                <div class="eyebrow reveal">AI / ML Engineer — Agentic Systems &amp; Applied Vision</div>
+                <div class="eyebrow reveal">AI Engineer — Agentic AI &amp; Enterprise Automation</div>
                 <h1 class="hero-name reveal">Abhay A.</h1>
                 <p class="hero-desc reveal">
-                    I build AI systems that hold up outside the notebook — <strong>computer vision at the edge</strong>, <strong>retrieval-driven language systems</strong>, and increasingly, <strong>agentic workflows that act inside real enterprise software</strong> through MCP tool servers and RPA. Less demo, more uptime.
+                    I build AI systems that hold up outside the notebook — <strong>agentic RPA that replaces costly bot licences</strong>, <strong>MCP tool servers and LLM gateways</strong> that let agents act inside real enterprise software, <strong>retrieval-driven language systems</strong>, and <strong>computer vision at the edge</strong>. I start with the business case — process discovery, scope and ROI — then architect, evaluate and ship. Less demo, more uptime.
                 </p>
                 <div class="hero-actions reveal">
-                    <a href="#projects" class="btn btn-primary">View deployed systems →</a>
+                    <a href="#projects" class="btn btn-primary">View systems →</a>
+                    <a href="Abhay_A_Resume.pdf" class="btn btn-outline" download>Download resume ↓</a>
                     <a href="#contact" class="btn btn-outline">Get in touch</a>
                 </div>
 
@@ -739,8 +759,13 @@
                     </div>
                     <div class="stat-row">
                         <span class="stat-num-label">C</span>
-                        <span class="stat-label">LLM inference cost reduced via quantization + serverless</span>
-                        <span class="stat-value">200×</span>
+                        <span class="stat-label">LLM inference cost cut via quantization + serverless</span>
+                        <span class="stat-value">~80%</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-num-label">D</span>
+                        <span class="stat-label">Enterprise processes assessed for AI &amp; automation</span>
+                        <span class="stat-value">600+</span>
                     </div>
                 </div>
             </div>
@@ -811,11 +836,19 @@
                     </div>
                     <div class="focus-item">
                         <span class="mono">Agentic · RPA</span>
-                        <p>MCP tool servers and Python-based RPA that connect LLM agents directly to ERP and business systems.</p>
+                        <p>Agentic RPA on open-source computer-use tooling (Cua), MCP tool servers and LLM gateways that connect agents to ERP and business systems — without per-bot licensing.</p>
+                    </div>
+                    <div class="focus-item">
+                        <span class="mono">Discovery · ROI</span>
+                        <p>Business-analyst groundwork first: mapping processes, finding automation gaps, and sizing scope and ROI before anything gets built.</p>
+                    </div>
+                    <div class="focus-item">
+                        <span class="mono">Evals · LLMOps</span>
+                        <p>AI evals and LangSmith tracing to measure agent accuracy and catch hallucinated tool calls before they reach production.</p>
                     </div>
                 </div>
                 <p>
-                    My codebase stays private — the architectures I design are built for real business impact, not portfolio filler. I build end-to-end systems that turn hard constraints into an advantage.
+                    Client work stays private, but I build in the open too — multi-agent tooling, vision-language research and real-time systems are on my <a href="https://github.com/ABHAY1937" target="_blank" rel="noopener">GitHub</a>. Either way, the goal is the same: end-to-end systems that turn hard constraints into an advantage.
                 </p>
             </div>
             <div class="spec-panel reveal">
@@ -825,7 +858,8 @@
                 <div class="spec-row"><span class="k">STATUS</span><span class="v avail">Available</span></div>
                 <div class="spec-row"><span class="k">EMAIL</span><span class="v">abhayanil77@gmail.com</span></div>
                 <div class="spec-row"><span class="k">PHONE</span><span class="v">+91 81390 82885</span></div>
-                <div class="spec-row"><span class="k">FOCUS</span><span class="v">Agentic AI, CV, RAG, RPA</span></div>
+                <div class="spec-row"><span class="k">FOCUS</span><span class="v">Agentic AI, Agentic RPA, MCP, RAG, CV</span></div>
+                <div class="spec-row"><span class="k">RESUME</span><span class="v"><a href="Abhay_A_Resume.pdf" download>Download PDF ↓</a></span></div>
             </div>
         </div>
     </section>
@@ -845,22 +879,23 @@
                     <div class="ledger-company">NGXP Technologies</div>
                     <div class="ledger-loc">Kochi, Kerala, India — On-site · Full-time</div>
                     <ul class="ledger-bullets">
-                        <li>Design and build agentic AI systems that plan and execute multi-step business workflows, moving beyond single-shot prompting into autonomous, tool-using agents.</li>
-                        <li>Develop MCP (Model Context Protocol) servers that expose internal ERP, CRM, and reporting functions as agent-callable tools, giving LLM agents safe, structured access to real business systems.</li>
-                        <li>Build RPA solutions in Python integrated directly with ERP platforms, automating data entry, reconciliation, and reporting workflows with human-in-the-loop approval steps for high-stakes actions.</li>
-                        <li>Own the full loop from architecture to deployment — evaluating agent reliability, guarding against hallucinated tool calls, and hardening pipelines for production use.</li>
+                        <li>Leading AI and automation discovery for a large enterprise as AI business analyst: assessed 600+ processes and shortlisted 100+ process cycles for AI and automation rollout, defining scope and ROI for each.</li>
+                        <li>Designing an agentic RPA platform that pairs custom LLM agents with a plugin on the open-source Cua computer-use framework — automating repetitive work across departments while cutting the per-bot licensing cost of tools like UiPath.</li>
+                        <li>Architecting MCP tool servers that expose ERP and CRM functions to agents behind an LLM gateway (model routing, fallback, cost control), with human-in-the-loop approvals for high-risk actions. Platform onboarding is underway.</li>
+                        <li>Defining the AI evals and LangSmith tracing plan to verify agent accuracy and catch hallucinated tool calls before rollout.</li>
                     </ul>
                 </div>
             </div>
 
             <div class="ledger-item reveal">
-                <div class="ledger-period">2025<br>— 2026</div>
+                <div class="ledger-period">SEP 2025<br>— APR 2026</div>
                 <div>
                     <div class="ledger-role">AI Developer (NLP &amp; LLMs)</div>
                     <div class="ledger-company">Acerite</div>
                     <div class="ledger-loc">Remote</div>
                     <ul class="ledger-bullets">
-                        <li>Re-engineered LLM deployments using 4-bit quantization and RunPod serverless infrastructure, cutting operating cost by over 99%.</li>
+                        <li>Re-engineered LLM deployments using 4-bit quantization and RunPod serverless infrastructure, cutting LLM inference cost by ~80%.</li>
+                        <li>Architected a 3-stage fine-tuned LLM pipeline with 4-bit quantization, achieving 98% high-quality contextual outputs.</li>
                         <li>Built a fine-tuned AI review-management system that generates rating-aware, human-sounding responses at scale.</li>
                         <li>Shipped multilingual chat solutions on Meta's NLLB framework paired with autonomous data-scraping pipelines.</li>
                     </ul>
@@ -868,7 +903,7 @@
             </div>
 
             <div class="ledger-item reveal">
-                <div class="ledger-period">2023<br>— 2025</div>
+                <div class="ledger-period">AUG 2023<br>— AUG 2025</div>
                 <div>
                     <div class="ledger-role">Associate AI Engineer (Computer Vision &amp; Edge)</div>
                     <div class="ledger-company">Safetywhat (Facilig Intelligent Solutions)</div>
@@ -877,12 +912,13 @@
                         <li>Designed and scaled real-time surveillance systems spanning vehicle monitoring, facial recognition, and zero-GPU ANPR.</li>
                         <li>Built 3D ergonomic posture-estimation tooling for occupational safety using DeepStream and OpenVINO on constrained edge hardware.</li>
                         <li>Developed action-recognition and convex-hull intrusion detection, heavily tuned for CPU-only performance limits.</li>
+                        <li>Built and optimized detection, segmentation and pose models reaching up to 95% accuracy in real time, and automated data annotation with Vision-Language Models.</li>
                     </ul>
                 </div>
             </div>
 
             <div class="ledger-item reveal">
-                <div class="ledger-period">2022<br>— 2023</div>
+                <div class="ledger-period">NOV 2022<br>— JUL 2023</div>
                 <div>
                     <div class="ledger-role">Data Science &amp; Analytics Intern</div>
                     <div class="ledger-company">Luminar Technolab</div>
@@ -909,28 +945,48 @@
                 <span class="cap-num">01</span>
                 <h3 class="cap-title">Agentic AI, RPA &amp; Automation</h3>
                 <div class="tag-row">
+                    <span class="tag new">Agentic RPA (Cua)</span>
+                    <span class="tag new">Computer-Use Agents</span>
                     <span class="tag new">MCP Servers</span>
-                    <span class="tag new">Agentic AI Development</span>
-                    <span class="tag new">RPA</span>
-                    <span class="tag new">ERP Integration</span>
+                    <span class="tag new">LLM Gateway</span>
+                    <span class="tag new">AI Evals</span>
+                    <span class="tag new">LangSmith</span>
+                    <span class="tag new">Code Mode</span>
+                    <span class="tag new">OpenCode</span>
+                    <span class="tag">Agentic AI Development</span>
+                    <span class="tag">ERP Integration</span>
                     <span class="tag">Python Automation</span>
                     <span class="tag">Workflow Orchestration</span>
                     <span class="tag">Human-in-the-loop Guardrails</span>
                 </div>
             </div>
 
-            <div class="cap-card">
+            <div class="cap-card wide">
                 <span class="cap-num">02</span>
-                <h3 class="cap-title">Generative AI &amp; LLMs</h3>
+                <h3 class="cap-title">AI Strategy &amp; Business Analysis</h3>
                 <div class="tag-row">
-                    <span class="tag">LLaMA</span><span class="tag">Claude API</span><span class="tag">Hugging Face</span>
-                    <span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">LangGraph</span>
-                    <span class="tag">4-bit Quantization</span><span class="tag">Prompt Engineering</span>
+                    <span class="tag new">Process Discovery</span>
+                    <span class="tag new">Automation Gap Analysis</span>
+                    <span class="tag new">Scope &amp; ROI Modelling</span>
+                    <span class="tag">Use-case Prioritization</span>
+                    <span class="tag">Platform Onboarding</span>
+                    <span class="tag">Stakeholder Workshops</span>
                 </div>
             </div>
 
             <div class="cap-card">
                 <span class="cap-num">03</span>
+                <h3 class="cap-title">Generative AI &amp; LLMs</h3>
+                <div class="tag-row">
+                    <span class="tag">LLaMA</span><span class="tag">Claude API</span><span class="tag">Hugging Face</span>
+                    <span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">LangGraph</span>
+                    <span class="tag">4-bit Quantization</span><span class="tag">Prompt Engineering</span>
+                    <span class="tag">Ollama</span><span class="tag">vLLM</span><span class="tag">Qwen2-VL</span><span class="tag">NLLB</span>
+                </div>
+            </div>
+
+            <div class="cap-card">
+                <span class="cap-num">04</span>
                 <h3 class="cap-title">Computer Vision</h3>
                 <div class="tag-row">
                     <span class="tag">YOLO</span><span class="tag">OpenCV</span><span class="tag">DeepStream</span>
@@ -940,7 +996,7 @@
             </div>
 
             <div class="cap-card">
-                <span class="cap-num">04</span>
+                <span class="cap-num">05</span>
                 <h3 class="cap-title">ML Frameworks</h3>
                 <div class="tag-row">
                     <span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Keras</span>
@@ -949,12 +1005,14 @@
             </div>
 
             <div class="cap-card">
-                <span class="cap-num">05</span>
+                <span class="cap-num">06</span>
                 <h3 class="cap-title">Deployment, MLOps &amp; Data</h3>
                 <div class="tag-row">
                     <span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">RunPod Serverless</span>
                     <span class="tag">FastAPI</span><span class="tag">Supabase</span><span class="tag">PostgreSQL</span>
-                    <span class="tag">MongoDB</span><span class="tag">FAISS</span><span class="tag">ChromaDB</span><span class="tag">Kafka</span>
+                    <span class="tag">MongoDB</span><span class="tag">FAISS</span><span class="tag">ChromaDB</span><span class="tag">Milvus</span>
+                    <span class="tag new">Qdrant</span><span class="tag">Neo4j</span><span class="tag">Kafka</span><span class="tag new">WebRTC</span>
+                    <span class="tag">Jetson</span><span class="tag">RTSP</span>
                 </div>
             </div>
 
@@ -972,23 +1030,91 @@
         <div class="proj-grid reveal">
             <div class="proj-card">
                 <div class="proj-head">
-                    <h3 class="proj-title">MCP-Orchestrated ERP Agent</h3>
-                    <span class="proj-code">AGENT</span>
+                    <h3 class="proj-title">Agentic RPA Platform</h3>
+                    <span class="proj-code">IN PROGRESS</span>
                 </div>
-                <p class="proj-desc">An agentic system that exposes core ERP functions — approvals, report generation, record reconciliation — as MCP tools, letting an LLM agent plan and execute multi-step tasks with human-in-the-loop checkpoints on high-risk actions.</p>
+                <p class="proj-desc">Custom LLM agents paired with a plugin on the open-source Cua computer-use framework, built to automate repetitive work across departments without the per-bot licensing cost of commercial RPA suites like UiPath.</p>
                 <div class="proj-tags">
-                    <span class="tag">MCP</span><span class="tag">Agentic AI</span><span class="tag">Python</span><span class="tag">ERP</span>
+                    <span class="tag">Agentic RPA</span><span class="tag">Cua</span><span class="tag">Computer-Use Agents</span><span class="tag">Python</span>
                 </div>
             </div>
             <div class="proj-card">
                 <div class="proj-head">
-                    <h3 class="proj-title">RPA Reporting Pipeline</h3>
-                    <span class="proj-code">RPA</span>
+                    <h3 class="proj-title">MCP Tool Layer &amp; LLM Gateway</h3>
+                    <span class="proj-code">IN PROGRESS</span>
                 </div>
-                <p class="proj-desc">Python-based robotic process automation that pulls data directly from ERP modules, reconciles it against source records, and generates recurring reports without manual data entry.</p>
+                <p class="proj-desc">MCP servers exposing ERP and CRM functions — approvals, reporting, reconciliation — as agent tools, served through an LLM gateway for model routing, fallback and cost control, with human-in-the-loop checkpoints and LangSmith evals.</p>
                 <div class="proj-tags">
-                    <span class="tag">RPA</span><span class="tag">ERP Integration</span><span class="tag">FastAPI</span>
+                    <span class="tag">MCP</span><span class="tag">LLM Gateway</span><span class="tag">AI Evals</span><span class="tag">LangSmith</span><span class="tag">ERP</span>
                 </div>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">Enterprise Automation Discovery</h3>
+                    <span class="proj-code">STRATEGY</span>
+                </div>
+                <p class="proj-desc">AI business-analysis engagement for a large enterprise: 600+ processes assessed for automation potential and 100+ process cycles shortlisted for AI and automation rollout, each with scope, effort and ROI.</p>
+                <div class="proj-tags">
+                    <span class="tag">Process Discovery</span><span class="tag">Gap Analysis</span><span class="tag">ROI</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="group-label reveal">Open-Source &amp; Research <span class="tag">GITHUB</span></div>
+        <div class="proj-grid reveal">
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">Hivefloor</h3>
+                    <span class="proj-code">MULTI-AGENT</span>
+                </div>
+                <p class="proj-desc">Local-first desktop office for AI coding agents: each agent runs a real CLI in its own terminal, a boss agent routes work by role and availability, with shared memory, Docker sandboxing and approval gates for risky actions.</p>
+                <div class="proj-tags"><span class="tag">TypeScript</span><span class="tag">Electron</span><span class="tag">node-pty</span><span class="tag">Multi-Agent</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/Hivefloor" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">SpatialVLM</h3>
+                    <span class="proj-code">VLM</span>
+                </div>
+                <p class="proj-desc">A grounding head on 4-bit Qwen2-VL-7B that turns "where is it?" into pixel-precise bounding boxes — ~58% Acc@0.5 on RefCOCO, running on an 8GB GPU.</p>
+                <div class="proj-tags"><span class="tag">Qwen2-VL</span><span class="tag">4-bit</span><span class="tag">Visual Grounding</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/SpatialVLM" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">VLM-Guided Anomaly Detection</h3>
+                    <span class="proj-code">VLM · CV</span>
+                </div>
+                <p class="proj-desc">Unsupervised defect detection with zero labelled anomalies: CLIP patch embeddings and VLM-written normality priors guide PatchCore coreset selection, benchmarked on MVTec AD and deployable via OpenVINO.</p>
+                <div class="proj-tags"><span class="tag">CLIP</span><span class="tag">PatchCore</span><span class="tag">OpenVINO</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/VLM-Guided-Unsupervised-Anomaly-Detection" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">WebRTC Video Calling</h3>
+                    <span class="proj-code">REAL-TIME</span>
+                </div>
+                <p class="proj-desc">P2P browser video calls with Socket.io signalling, plus a GStreamer pipeline that exposes calls as RTSP or YouTube Live for YOLO-based computer vision.</p>
+                <div class="proj-tags"><span class="tag">WebRTC</span><span class="tag">Socket.io</span><span class="tag">GStreamer</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/Webrtc_calling_app" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">Transcript → Knowledge Graph</h3>
+                    <span class="proj-code">LLM · GRAPH</span>
+                </div>
+                <p class="proj-desc">Audio-to-graph pipeline: Whisper transcription, semantic chunking and local-LLM entity extraction (Ollama) into a Neo4j knowledge graph.</p>
+                <div class="proj-tags"><span class="tag">Whisper</span><span class="tag">Ollama</span><span class="tag">Neo4j</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/transcript-knowledge-graph" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+            <div class="proj-card">
+                <div class="proj-head">
+                    <h3 class="proj-title">Medical NLP Chatbot</h3>
+                    <span class="proj-code">RAG</span>
+                </div>
+                <p class="proj-desc">Clinical Q&amp;A API with hybrid retrieval — intent routing between SQL facts and ChromaDB vector search — answered by a local LLM.</p>
+                <div class="proj-tags"><span class="tag">Hybrid RAG</span><span class="tag">SQLite</span><span class="tag">ChromaDB</span></div>
+                <a class="proj-link" href="https://github.com/ABHAY1937/medical-nlp-chatbot" target="_blank" rel="noopener">View on GitHub →</a>
             </div>
         </div>
 
@@ -1043,8 +1169,8 @@
                     <h3 class="proj-title">LLaMA Review Intelligence</h3>
                     <span class="proj-code">LLM</span>
                 </div>
-                <p class="proj-desc">Fine-tuned LLaMA 3.2 8B on real reviews to generate human-sounding, rating-aware responses, deployed via vLLM.</p>
-                <div class="proj-tags"><span class="tag">LLaMA 3.2</span><span class="tag">vLLM</span><span class="tag">Fine-Tuning</span></div>
+                <p class="proj-desc">Fine-tuned a LLaMA model on real reviews to generate human-sounding, rating-aware responses, deployed via vLLM.</p>
+                <div class="proj-tags"><span class="tag">LLaMA</span><span class="tag">vLLM</span><span class="tag">Fine-Tuning</span></div>
             </div>
             <div class="proj-card">
                 <div class="proj-head">
@@ -1109,6 +1235,7 @@
                 <a href="tel:+918139082885" class="contact-link">+91 81390 82885 <span class="arrow">→</span></a>
                 <a href="https://www.linkedin.com/in/abhay-a-814709244/" target="_blank" class="contact-link">LinkedIn <span class="arrow">→</span></a>
                 <a href="https://github.com/ABHAY1937" target="_blank" class="contact-link">GitHub <span class="arrow">→</span></a>
+                <a href="Abhay_A_Resume.pdf" download class="contact-link full">Download resume (PDF) <span class="arrow">↓</span></a>
             </div>
         </div>
     </section>
@@ -1116,7 +1243,7 @@
 </main>
 
 <footer>
-    <div>© 2026 Abhay A — AI/ML Engineer</div>
+    <div>© 2026 Abhay A — AI Engineer, Agentic AI</div>
     <div>Built for production, not demos.</div>
 </footer>
 
